@@ -1,0 +1,25 @@
+<svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="45" cy="45" r="45" fill="url(#paint0_linear)"/>
+<circle cx="57" cy="38" r="14" fill="white"/>
+<path d="M55.1516 47L56.8058 39.4692H52L55.5554 29.7138L55.8089 29H60.3366L60.0427 29.7174L57.5603 36.0784H62L55.1516 47Z" fill="#F27B19"/>
+<rect x="40" y="82" width="34" height="4" fill="#B8C2D0"/>
+<circle cx="72" cy="84" r="6" fill="#F1F3F6"/>
+<circle cx="72" cy="84" r="2" fill="#B8C2D0"/>
+<circle cx="40" cy="84" r="6" fill="#F1F3F6"/>
+<circle cx="40" cy="84" r="2" fill="#B8C2D0"/>
+<path d="M30 44H80C81.6569 44 83 45.3431 83 47V49H30V44Z" fill="#F1F3F6"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13 29.5C13 28.1193 14.1193 27 15.5 27H27L40.5572 69.2359C40.9792 70.5506 40.2556 71.9584 38.9409 72.3804C37.6263 72.8024 36.2184 72.0787 35.7965 70.7641L23.3537 32H15.5C14.1193 32 13 30.8807 13 29.5Z" fill="#F1F3F6"/>
+<path d="M11 29C11 27.3431 12.3431 26 14 26H22V33H14C12.3431 33 11 31.6569 11 30V29Z" fill="#002552"/>
+<path d="M29 49H82L74 74H37L29 49Z" fill="#F1F3F6"/>
+<path d="M34 49H82L81 52H35L34 49Z" fill="#D4DAE3"/>
+<rect x="44" y="52" width="2" height="16" fill="#002552"/>
+<rect x="52" y="52" width="2" height="16" fill="#002552"/>
+<rect x="60" y="52" width="2" height="16" fill="#002552"/>
+<rect x="68" y="52" width="2" height="16" fill="#002552"/>
+<defs>
+<linearGradient id="paint0_linear" x1="45" y1="90" x2="45" y2="-1.67766e-06" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FEA53B"/>
+<stop offset="1" stop-color="#F27B19"/>
+</linearGradient>
+</defs>
+</svg>

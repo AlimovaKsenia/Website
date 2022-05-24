@@ -1,0 +1,22 @@
+<svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="45" cy="45" r="45" fill="url(#paint0_linear)"/>
+<rect x="78" y="36" width="12" height="20" fill="#F1F3F6"/>
+<rect x="63" y="39" width="15" height="14" fill="#D4DAE3"/>
+<rect x="12" y="56" width="12" height="20" transform="rotate(-180 12 56)" fill="#F1F3F6"/>
+<rect x="27" y="53" width="15" height="14" transform="rotate(-180 27 53)" fill="#D4DAE3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M73.0068 53C73.6533 50.7788 74 48.4299 74 46C74 43.5701 73.6533 41.2212 73.0068 39H67V53H73.0068Z" fill="#B8C2D0"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.9932 39C16.3467 41.2212 16 43.5701 16 46C16 48.4299 16.3467 50.7788 16.9932 53L23 53L23 39L16.9932 39Z" fill="#B8C2D0"/>
+<circle cx="45" cy="46" r="25" fill="white"/>
+<circle cx="45" cy="46" r="20" fill="#D4DAE3"/>
+<rect x="33" y="38" width="24" height="6" rx="3" fill="#8092A8"/>
+<rect x="41" y="53" width="8" height="2" rx="1" fill="#002552"/>
+<rect x="46" y="50" width="8" height="2" rx="1" transform="rotate(90 46 50)" fill="#002552"/>
+<rect x="42.8787" y="50.4644" width="8" height="2" rx="1" transform="rotate(45 42.8787 50.4644)" fill="#002552"/>
+<rect x="48.5355" y="51.8787" width="8" height="2" rx="1" transform="rotate(135 48.5355 51.8787)" fill="#002552"/>
+<defs>
+<linearGradient id="paint0_linear" x1="45" y1="90" x2="45" y2="-1.67766e-06" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FEA53B"/>
+<stop offset="1" stop-color="#F27B19"/>
+</linearGradient>
+</defs>
+</svg>
