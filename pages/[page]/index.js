@@ -2,6 +2,8 @@ import Head from 'next/head';
 
 import Header from '../../components/Header';
 import { INNER_PAGES_CONTENT } from '../../constants';
+import ContactUs from '../../components/ContactUs';
+import Footer from '../../components/Footer';
 
 export default function Home({
   title,
@@ -64,6 +66,8 @@ export default function Home({
           )}
         </div>
       </section>
+      <ContactUs />
+      <Footer />
     </>
   );
 }
