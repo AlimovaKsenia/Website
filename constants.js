@@ -763,7 +763,7 @@ export const INNER_PAGES_CONTENT = {
 
 // todo move to .env
 export const MAIL = {
-  SERVICE_ID: 'service_knj9uue',
-  TEMPLATE_ID: 'template_jmv7bzq',
-  PUBLIC_KEY: 'G1z9z42lxd3e0C-SZ',
+  SERVICE_ID: 'service_75w18kq',
+  TEMPLATE_ID: 'template_qrc9zb6',
+  PUBLIC_KEY: '9CD5huFVd04Mbj-hO',
 };
