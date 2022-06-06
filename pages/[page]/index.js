@@ -41,6 +41,9 @@ export default function Home({
             <ul className='row appliances__list'>
               {linksWithImages.map((link) => (
                 <li key={link.title} className='col-lg-3 appliances__item'>
+                  {link.img && (
+                    <img src={link.img} />
+                 )}
                   <a href={link.href} className='appliance__link'>
                     {link.title}
                   </a>

@@ -240,14 +240,17 @@ export const INNER_PAGES_CONTENT = {
     description: 'Платите за свет меньше',
     linksWithImages: [
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Продажа приборов учета электроэнергии',
       },
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Графики бесплатной замены',
       },
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Установка/замена',
       },
@@ -271,22 +274,27 @@ export const INNER_PAGES_CONTENT = {
     title: 'Проектирование инженерных систем',
     linksWithImages: [
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Проект электроснабжения',
       },
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Проект водоснабжения и канализации',
       },
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Проект отопления',
       },
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Проект вентиляции и кондиционирования',
       },
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Проект слаботочных сетей (видеонаблюдение, сигнализация)',
       },
@@ -347,6 +355,7 @@ export const INNER_PAGES_CONTENT = {
     title: 'Установка системы защиты от протечек воды',
     linksWithImages: [
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Проект электроснабжения',
       },
@@ -452,18 +461,22 @@ export const INNER_PAGES_CONTENT = {
     description: 'Платите за воду меньше',
     linksWithImages: [
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Как сэкономить?',
       },
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Как заказать?',
       },
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Часто задаваемые вопросы',
       },
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Техническое обслуживание',
       },
@@ -485,17 +498,20 @@ export const INNER_PAGES_CONTENT = {
   },
   connection: {
     title: 'Подключение к электроснабжению под ключ',
-    description: 'Под ключ',
+    description: 'Подключение к электроснабжению под ключ',
     linksWithImages: [
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Часто задаваемые вопросы',
       },
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Увеличение мощности',
       },
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Проектирование и оформление тех.документов',
       },
@@ -516,14 +532,17 @@ export const INNER_PAGES_CONTENT = {
     description: 'Закажите проводку с гарантией',
     linksWithImages: [
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Как заказать услугу?',
       },
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Проектирование',
       },
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Часто задаваемые вопросы',
       },
@@ -622,10 +641,12 @@ export const INNER_PAGES_CONTENT = {
     description: 'Молниезащита загородных домов и дач',
     linksWithImages: [
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Активная система молниезащиты',
       },
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Молниеотвод',
       },
@@ -670,10 +691,12 @@ export const INNER_PAGES_CONTENT = {
     description: 'Солнечные электростанции для вашего дома',
     linksWithImages: [
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Заказать расчет стоимости',
       },
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'Часто задаваемые вопросы',
       },
@@ -740,7 +763,7 @@ export const INNER_PAGES_CONTENT = {
   },
   'internet-tv': {
     title: 'Интернет и цифровое ТВ',
-    description: 'картинка',
+    description: 'Цифровое ТВ',
     paragraphs: [
       {
         type: 'p',
@@ -753,12 +776,21 @@ export const INNER_PAGES_CONTENT = {
     ],
     linksWithImages: [
       {
+        img: 'images/inner/1.svg',
         href: '#',
         title: 'QR',
       },
     ],
   },
-  pricelist: {},
+  pricelist: {
+    title: 'Актуальный прейскурант на 2022 год',
+    paragraphs: [
+      {
+        type: 'p',
+        text: 'C акутуальным прейскурантом вы можете ознакомиться перейдя по ссылке ',
+      },
+    ]
+  },
 };
 
 // todo move to .env
