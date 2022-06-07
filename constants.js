@@ -33,7 +33,8 @@ export const ABOUT_TEXT = {
     </>
   ),
   videoTitle: 'Видео',
-  videoUrl: 'https://www.youtube.com/embed/yzq5lFqXnmo',
+  // videoUrl: 'https://www.youtube.com/embed/yzq5lFqXnmo',
+  videoUrl: 'video.mp4',
   infoTitle: 'Сведения',
   info: (
     <>
@@ -52,6 +53,7 @@ export const ABOUT_TEXT = {
 };
 
 export const CONTACT_US_TEXT = {
+  title: 'Контакты компании',
   info: [
     {
       title: 'Наш адрес',
@@ -787,9 +789,11 @@ export const INNER_PAGES_CONTENT = {
     paragraphs: [
       {
         type: 'p',
-        text: 'C акутуальным прейскурантом вы можете ознакомиться перейдя по ссылке ',
+        text: 'C актуальным прейскурантом вы можете ознакомиться перейдя по ссылке ',
       },
-    ]
+    ],
+    fileLabel: 'Скачать прайслист',
+    file: 'pdf.pdf',
   },
 };
 

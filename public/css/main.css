@@ -907,7 +907,8 @@ ul.nostyle i {
 }
 #contact {
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
+  margin: 0;
 }
 #contact .container-wrapper {
   position: absolute;
@@ -920,7 +921,7 @@ ul.nostyle i {
 }
 #contact .contact-form {
   background: rgba(255, 255, 255, 0.8);
-  padding: 20px;
+  padding-bottom: 20px;
   margin-top: 50px;
 }
 #contact .contact-form h3 {
@@ -1149,6 +1150,11 @@ ul.nostyle i {
 
 .appliance__descript:not(:last-child) {
   margin-bottom: 30px;
+}
+
+.pricelist-download {
+  cursor: pointer;
+  font-size: 17px;
 }
 
 /*Контакты*/

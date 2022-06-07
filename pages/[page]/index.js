@@ -6,11 +6,22 @@ import ContactUs from '../../components/ContactUs';
 import Footer from '../../components/Footer';
 
 export default function Home({
+  file,
   title,
+  fileLabel,
   description,
   linksWithImages,
   paragraphs,
 }) {
+  const download = () => {
+    const a = document.createElement('a');
+    a.style = 'display: none';
+    a.href = file;
+    a.setAttribute('download', '');
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+  };
   return (
     <>
       <Head>
@@ -41,9 +52,7 @@ export default function Home({
             <ul className='row appliances__list'>
               {linksWithImages.map((link) => (
                 <li key={link.title} className='col-lg-3 appliances__item'>
-                  {link.img && (
-                    <img src={link.img} />
-                 )}
+                  {link.img && <img src={link.img} />}
                   <a href={link.href} className='appliance__link'>
                     {link.title}
                   </a>
@@ -65,6 +74,13 @@ export default function Home({
                   </p>
                 )
               )}
+            </div>
+          )}
+          {file && (
+            <div className='row appliances__discripyion'>
+              <a className='pricelist-download' onClick={download}>
+                {fileLabel}
+              </a>
             </div>
           )}
         </div>
