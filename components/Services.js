@@ -14,7 +14,7 @@ export default function Services() {
               key={link.link}
               className='col-lg-12 col-md-12 col-sm-12 col-12 services__list-item'
             >
-              <img src={link.img} className='services__pic' alt='' />
+               <img src={link.img} className='services__pic' alt='' /> 
               <Link href={link.link}>
                 <a className='service__link'>{link.label}</a>
               </Link>
